@@ -4,14 +4,14 @@ import { AboutComponent } from "./components/about/about.component";
 import { HeroesComponent } from "./components/heroes/heroes.component";
 import { SharedComponent } from "./components/shared/shared.component";
 import { DannyComponent } from './components/danny/danny.component';
-
+import { EstudiosComponent } from "./components/estudios/estudios.component";
 const APP_ROUTES:Routes=[
 {path: 'home', component: HomeComponent },
 {path: 'about', component: AboutComponent },
 {path: 'heroes', component: HeroesComponent },
 {path: 'shared', component: SharedComponent },
 {path: 'danny', component: DannyComponent },
-{path: 'danny', component: AboutComponent },
+{path: 'estudios', component: EstudiosComponent },
 {path: '**', pathMatch: 'full',redirectTo:'home'},
 ];
 export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES,{useHash:true});

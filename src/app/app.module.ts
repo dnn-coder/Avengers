@@ -14,7 +14,7 @@ import { DannyComponent } from './components/danny/danny.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { APP_ROUTING } from './app.routes';
 import { FooterComponent } from './components/footer/footer.component';
-import { PrincipalComponent } from './components/danny/principal/principal.component';
+import { EstudiosComponent } from './components/estudios/estudios.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { PrincipalComponent } from './components/danny/principal/principal.compo
     DannyComponent,
     NavbarComponent,
     FooterComponent,
-    PrincipalComponent,
+    EstudiosComponent,
   ],
   imports: [
     BrowserModule,
