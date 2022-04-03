@@ -1,0 +1,19 @@
+.container-footer {
+    display: flex;
+    margin: auto;
+}
+
+.footers {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(16, 26, 35);
+    color: #f1c40f;
+    display: flex;
+    padding-bottom: 3em;
+}
+
+.elemento {
+    margin-left: 20px;
+    margin-right: 20px;
+}

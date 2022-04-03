@@ -1,0 +1,38 @@
+.img {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.aquaman {
+    background-image: url("./img/aquaman.png");
+}
+
+.linterna-verde {
+    background-image: url("./img/linterna-verde.png");
+}
+
+.spiderman {
+    background-image: url("./img/spiderman.png");
+}
+
+.wolverine {
+    background-image: url("./img/wolverine.png");
+}
+
+.hulk {
+    background-image: url("./img/hulk.png");
+}
+
+.batman {
+    background-image: url("./img/batman.png");
+}
+
+.daredevil {
+    background-image: url("./img/daredevil.png");
+}
